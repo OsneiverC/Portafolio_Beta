@@ -5,7 +5,7 @@ import WhatsApp from './icons/WhatsApp';
 import Certificate from './icons/Certificate';
 import Check from './icons/Check';
 import Curriculum from '../../public/Curriculum.pdf'
-import Tools from './icons/tools';
+import Tools from './icons/Tools';
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState('inicio');
