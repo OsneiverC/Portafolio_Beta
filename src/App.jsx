@@ -9,7 +9,7 @@ import Github from './component/icons/Github';
 import Instagram from './component/icons/Instagram';
 import Linkedin from './component/icons/Linkedin';
 import Trayectoria from './component/Experiencia';
-import './app.css'
+import './App.css'
 import Experiencia from './component/Experiencia';
 
 // Opcional: Asegúrate de tener FontAwesome si usas esos iconos
