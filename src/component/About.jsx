@@ -1,10 +1,10 @@
-import Foto_Perfil from '../../public/51908.jpg'
+import Foto_Perfil from '../../public/51908.webp'
 import Curriculum from '../../public/Curriculum.pdf'
 export default function About() {
   return (
     <section id="inicio" className="text-white py-20 px-6 relative overflow-hidden">
       {/* Texto superior */}
-          <h4 className="text-violet-400 font-bold text-5xl text-center">Acerca de mí</h4>
+          <span className="block text-violet-400 font-bold text-5xl text-center">Acerca de mí</span>
           <p className="text-gray-300 text-center">Transformando conceptos en soluciones digitales impactantes y fluidas.</p>
       <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
         {/* Texto principal */}
@@ -49,7 +49,7 @@ export default function About() {
               <h3 className="text-3xl font-bold">14</h3>
             </div>
           </div>
-          <p className="text-xs text-gray-500 mt-2">Soluciones web innovadoras diseñadas</p>
+          <p className="text-xs text-gray-300 mt-2">Soluciones web innovadoras diseñadas</p>
         </div>
 
         <div className="bg-[#14142B] rounded-2xl p-6 text-white shadow-md hover:shadow-violet-700/20 transition">
@@ -60,7 +60,7 @@ export default function About() {
               <h3 className="text-3xl font-bold">6</h3>
             </div>
           </div>
-          <p className="text-xs text-gray-500 mt-2">Competencias profesionales validadas</p>
+          <p className="text-xs text-gray-300 mt-2">Competencias profesionales validadas</p>
         </div>
 
         <div className="bg-[#14142B] rounded-2xl p-6 text-white shadow-md hover:shadow-violet-700/20 transition">
@@ -71,7 +71,7 @@ export default function About() {
               <h3 className="text-3xl font-bold">3</h3>
             </div>
           </div>
-          <p className="text-xs text-gray-500 mt-2">Viaje de aprendizaje continuo</p>
+          <p className="text-xs text-gray-300 mt-2">Viaje de aprendizaje continuo</p>
         </div>
       </div>
     </section>

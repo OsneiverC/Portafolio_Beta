@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="Hero_Parrafo pl-5 font-black flex items-center mt-28 flex-col gap-2 h-[60vh]">
                     <h2 className="text-6xl md:text-7xl mb-6 text-shadow text-center">
                         Desarrollador<br />
-                        <span className="text-violet-700 text-shadow-lg">Full Stack</span>
+                        <span className="text-violet-400 text-shadow-lg">Full Stack</span>
                     </h2>
                     <span className="text-gray-400 text-lg max-w-2xl text-center">
                         Creación de aplicaciones web dinámicas, eficientes e intuitivas para ofrecer excelencia digital.

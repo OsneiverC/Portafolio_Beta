@@ -1,5 +1,5 @@
 import Miniatura_CCFM2 from '../../public/Markud/Miniatura CCFM2.jpg';
-import Miniatura_Motulmotos from '../../public/Markud/PAGEMOTULMOTOS.JPG';
+import Miniatura_Motulmotos from '../../public/Markud/PAGEMOTULMOTOS.jpg';
 import Miniatura_veterinaria from '../../public/Markud/848shots_so.png';
 import Miniatura_Ecommerce from '../../public/Markud/Miniatura_Ecommerce-Motulmotos.png';
 import Miniatura_Tenicafe from '../../public/Markud/Miniatura_TecniCafe.png';

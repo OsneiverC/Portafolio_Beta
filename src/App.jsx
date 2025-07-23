@@ -26,9 +26,9 @@ function App() {
 
         {/* Redes sociales a la izquierda */}
         <div className="hidden md:fixed left-6 bottom-0 md:flex flex-col items-center gap-5 z-50 text-white">
-          <a href="#" className="hover:text-violet-400"><Github /> </a>
-          <a href="#" className="hover:text-violet-400"><Instagram/></a>
-          <a href="#" className="hover:text-violet-400"><Linkedin/></a>
+          <a href="https://github.com/OsneiverC" target='_blank' className="hover:text-violet-500" aria-label="Perfil de GitHub"><Github /> </a>
+          <a href="https://www.instagram.com/osneiverc__/" target='_blank' className="hover:text-violet-500" arial-label="Perfil de Instagram"><Instagram/></a>
+          <a href="https://www.linkedin.com/in/osneiver-cardenas-b23b0530a/" target='_blank' className="hover:text-violet-500" arial-label="Perfil de linkedin"><Linkedin/></a>
           <div className="w-px h-24 bg-violet-400 mt-3" />
         </div>
 

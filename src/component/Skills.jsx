@@ -1,13 +1,13 @@
 import Logo_React from '../../public/React.webp'
-import Logo_JavaScript from '../../public/JavaScript-logo.png'
-import Logo_TailwindCss from '../../public/Tailwind_CSS_Logo.png'
+import Logo_JavaScript from '../../public/JavaScript-logo.webp'
+import Logo_TailwindCss from '../../public/Tailwind_CSS_Logo.webp'
 import Logo_Firebase from '../../public/Logo_firebase.webp'
-import Logo_Supabase from '../../public/Supabase_logo.png'
+import Logo_Supabase from '../../public/Supabase_logo.webp'
 import Logo_Git from '../../public/Git_Logo.webp'
-import Logo_Boostrap from '../../public/Bootstrap_Logo.png'
-import Logo_Nodejs from '../../public/Nodejs-logo.png'
-import Logo_Notion from '../../public/notion.png'
-import Logo_Mysql from '../../public/Mysql_Logo.png'
+import Logo_Boostrap from '../../public/Bootstrap_Logo.webp'
+import Logo_Nodejs from '../../public/Nodejs-logo.webp'
+import Logo_Notion from '../../public/notion.webp'
+import Logo_Mysql from '../../public/Mysql_Logo.webp'
 
 const Skills = () => {
   return (
@@ -35,7 +35,7 @@ const Skills = () => {
             <figure className="w-20 h-20 mb-2 flex justify-center items-center">
               <img src={tech.logo} alt={tech.name} draggable="false" className="w-full object-contain" />
             </figure>
-            <span className="text-sm font-semibold text-gray-700">{tech.name}</span>
+            <span className="text-sm font-semibold text-gray-200">{tech.name}</span>
           </div>
         ))}
       </div>
