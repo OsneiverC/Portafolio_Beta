@@ -1,5 +1,5 @@
 import WhatsApp from "./icons/WhatsApp";
-import Curriculum from '../../public/Curriculum Cv.pdf'
+import Curriculum from '../../public/Curriculum.pdf'
 
 export default function CtaSection() {
   return (

@@ -1,5 +1,5 @@
 import Foto_Perfil from '../../public/51908.jpg'
-
+import Curriculum from '../../public/Curriculum.pdf'
 export default function About() {
   return (
     <section id="inicio" className="text-white py-20 px-6 relative overflow-hidden">
@@ -21,7 +21,7 @@ export default function About() {
 
           {/* Botones */}
           <div className="flex flex-wrap gap-4 mt-4">
-            <a href="/CV.pdf" download className="bg-violet-600 hover:bg-violet-700 text-white px-4 py-2 rounded-md flex items-center gap-2 shadow-lg">
+            <a href={Curriculum} download className="bg-violet-600 hover:bg-violet-700 text-white px-4 py-2 rounded-md flex items-center gap-2 shadow-lg">
                Descargar CV
             </a>
             <a href="#proyectos" className="border border-violet-500 hover:bg-violet-500 hover:text-white text-violet-400 px-4 py-2 rounded-md flex items-center gap-2">

@@ -4,7 +4,7 @@ import Github from "./icons/Github";
 import Instagram from "./icons/Instagram";
 import Linkedin from "./icons/Linkedin";
 import Cv from "./icons/Cv";
-import Curriculum from '../../public/Curriculum Cv.pdf'
+import Curriculum from '../../public/Curriculum.pdf'
 
 export default function Hero() {
     return (

@@ -4,7 +4,7 @@ import Home from './icons/Home';
 import WhatsApp from './icons/WhatsApp';
 import Certificate from './icons/Certificate';
 import Check from './icons/Check';
-import Curriculum from '../../public/Curriculum Cv.pdf'
+import Curriculum from '../../public/Curriculum.pdf'
 import Tools from './icons/tools';
 
 export default function Header() {
